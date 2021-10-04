@@ -16,6 +16,7 @@
  */
 
 #include <iostream>
+#include <locale>
 #include <anitomy/anitomy.h>
 #include <json.hpp>
 #include <codecvt>
