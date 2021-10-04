@@ -76,6 +76,7 @@ int main(int argc, char** argv) {
     { "autoTerm", get_str_element(elements, anitomy::kElementAudioTerm)},
     { "deviceCompatibility", get_str_element(elements, anitomy::kElementDeviceCompatibility)},
     { "episodeNumber", get_str_element(elements, anitomy::kElementEpisodeNumber)},
+    { "episodeNumberAlt", get_str_element(elements, anitomy::kElementEpisodeNumberAlt)},
     { "episodePrefix", get_str_element(elements, anitomy::kElementEpisodePrefix)},
     { "episodeTitle", get_str_element(elements, anitomy::kElementEpisodeTitle)},
     { "fileChecksum", get_str_element(elements, anitomy::kElementFileChecksum)},
