@@ -3,7 +3,7 @@ cmake_minimum_required(VERSION 3.2)
 project("anitomy-cli")
 
 # add_subdirectory(external/json)
-include_directories(external/json/src)
+include_directories(external/json/single_include/nlohmann)
 include_directories(external/anitomy)
 file (GLOB anitomy_sources external/anitomy/anitomy/*.cpp)
 
